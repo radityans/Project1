@@ -1,0 +1,43 @@
+* {
+  scroll-behavior: smooth;
+}
+/* NAVBAR */
+.brands {
+  font-size: x-large;
+  font-style: italic;
+  background: -webkit-linear-gradient(180deg, rgba(167, 210, 203, 1) 63%, rgba(242, 211, 136, 1) 63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar-nav a:hover {
+  box-shadow: 20px rgb(255, 255, 255);
+  font-size: x-large;
+  transition: 0.8s;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+  padding-top: 3rem;
+  width: auto;
+}
+
+/* Product */
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--red);
+  background: linear-gradient(90deg, rgb(65, 0, 130) 0%, rgb(102, 13, 191) 36%, rgb(184, 84, 255) 100%);
+}
+::-webkit-scrollbar-track {
+  background: #d2daff;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 36%, rgb(255, 255, 255) 100%);
+}
+::-webkit-scrollbar-button {
+  display: none;
+}
